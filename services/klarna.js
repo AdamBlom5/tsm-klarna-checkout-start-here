@@ -49,7 +49,7 @@ export async function createOrder(product) {
         merchant_urls: {
 			terms: 'https://www.example.com/terms.html',
 			checkout: 'https://www.example.com/checkout.html?order_id={checkout.order.id}',
-			confirmation: 'https://klarna2.vercel.app/confirmation?order_id={checkout.order.id}',
+			confirmation: 'https://tsm-klarna-checkout-start-here.vercel.app/confirmation?order_id={checkout.order.id}',
 			push: 'https://www.example.com/api/push?order_id={checkout.order.id}'
 		}
 	};
